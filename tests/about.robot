@@ -11,6 +11,8 @@ The browser 'about:' page
     ...  Displays the browser's 'about:' page
 
     [Setup]     open browser  about:  ${BROWSER}
+    Maximize Browser Window
+
 
     capture page screenshot
 

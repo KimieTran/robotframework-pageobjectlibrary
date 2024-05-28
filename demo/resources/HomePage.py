@@ -10,7 +10,7 @@ class HomePage(PageObject):
     page should be"
     """
 
-    PAGE_TITLE = "Home - PageObjectLibrary Demo"
+    PAGE_TITLE = "Cryptocurrency Market | Coin Prices & Market Cap | Tokenize Xchange11"
     PAGE_URL = "/"
 
     # these are accessible via dot notaton with self.locator

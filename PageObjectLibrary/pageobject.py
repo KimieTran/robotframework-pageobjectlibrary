@@ -9,6 +9,8 @@ from robot.libraries.BuiltIn import BuiltIn
 
 from selenium.webdriver.support.expected_conditions import staleness_of
 from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.common.by import By
+
 
 import six
 

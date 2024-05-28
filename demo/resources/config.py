@@ -27,10 +27,10 @@ class Config(object):
         sys.path.insert(0, os.path.abspath(os.path.join(_here)))
 
         self.demo_root = os.path.abspath(os.path.join(_here, ".."))
-        self.port = 8000
-        self.root_url = "http://localhost:%s" % self.port
-        self.username = "test user"
-        self.password = "password"
+        # self.port = 8000
+        self.root_url = "https://tokenize-dev.com/%s"
+        self.email = "kimie@tokenize.exchange"
+        self.password = "1234567Aa@"
 
     def __str__(self):
         return "<Config: %s>" % str(self.__dict__)
@@ -38,3 +38,4 @@ class Config(object):
 
 # This creates a variable that robot can see
 CONFIG = Config()
+

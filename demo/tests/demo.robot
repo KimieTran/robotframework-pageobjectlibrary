@@ -8,6 +8,7 @@ Library     PageObjectLibrary
 Library     SeleniumLibrary
 Library     Process
 
+
 Suite Setup       Start webapp and open browser
 Suite Teardown    Stop webapp and close all browsers
 
@@ -27,6 +28,7 @@ Start webapp and open browser
 Login smoke test
     [Setup]  Go to page  LoginPage
     Login as a normal user
+    Sleep    5
     The current page should be  HomePage
 
 Login with valid credentials
