@@ -9,18 +9,39 @@ PageObjectLibrary is a lightweight [Robot Framework] keyword library that makes 
 ```bash
 pip install --upgrade robotframework-pageobjectlibrary
 ```
+## Install python
 
-## Source Code
+Python 3.12.3
 
-The source code is hosted on GitHub at the following url:
+## Install Chrome driver 
+Get [chrome driver](https://developer.chrome.com/docs/chromedriver/downloads) which is suitable with the machine
 
-* https://github.com/boakley/robotframework-pageobjectlibrary.git
 
 ## Running the Demo
 
-In the GitHub repository is a small demonstration suite that includes a self-contained webserver and web site.
+In the repository is a small demonstration suite that includes a self-contained webserver and web site.
 
 For the demo to run, you must have [robotframework](https://pypi.org/project/robotframework/) 2.9+ and [robotframework-seleniumlibrary](https://pypi.org/project/robotframework-seleniumlibrary/) installed. You must also have cloned the GitHub repository to have access to the demo files.
+
+## Download pip:
+pip <https://pip.pypa.io>   
+get -pip.py
+py -m pip
+
+## Install robotframework-pageobjectlibrary
+
+pip install --upgrade robotframework-pageobjectlibrary     
+install --upgrade robotframework-pageobjectlibrary        
+install  robotframework-pageobjectlibrary     
+py -m pip install --upgrade robotframework-pageobjectlibrary 
+
+## Install requirement
+
+py -m pip install install -r requirements.txt 
+
+## Install selenium
+
+py -m pip install selenium==4.2.0 
 
 To run the demo, clone the GitHub repository, cd to the folder that contains this file, and then run the following command: :
 
